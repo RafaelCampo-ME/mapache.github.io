@@ -1,7 +1,33 @@
-header {display: flex;}
+* {
+    font-family: 'Merriweather', serif;
+    box-sizing: border-box;
 
-header div {display: flex;}
+}
 
+ 
+.nav-bar-logo {
+    height: 70px;
+    width: auto;
+    margin: 1px;
+    background-color: brown;
+    
+}
+ 
 nav {
     background-color: aqua;
+}
+.nav-links {
+    display: inline-block;
+    align-items: center;
+} 
+
+body {
+    background-color: rgb(217, 209, 224);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    padding: 5px 10%;
 }
